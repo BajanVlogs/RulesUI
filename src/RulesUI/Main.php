@@ -44,7 +44,6 @@ class Main extends PluginBase implements Listener {
 					$form->setTitle("RebirthPE RulesUI Screen");
 					$form->setContent("Please follow the rules.");
 					$form->adddropdown(TextFormat::BOLD . "Please respect staff and dont hack");	
-                                        $form->addButton(TextFormat::BOLD . "Fly");	
 					$form->sendToPlayer($sender);
 				}
 				else{
