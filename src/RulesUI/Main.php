@@ -33,10 +33,7 @@ class Main extends PluginBase implements Listener {
 						return true;
 					}
 						switch($result){
-							case 0:
-								$command = "rules";
-								$this->getServer()->getCommandMap()->dispatch($sender, $command);
-							break:         
+						   
 						}
 					});
 					$form->setTitle("RebirthPE RulesUI Screen");
